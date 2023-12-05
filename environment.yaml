@@ -1,0 +1,12 @@
+name: pyLife_pragtic
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools
+  - pip:
+    - pip-tools
+    - pyLife
+    - jupyter
+    - pandas
+    - plotly
+    - streamlit
