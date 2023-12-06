@@ -8,7 +8,15 @@ To use all notebooks and apps, please clone the repo. As an alternative, you can
 1. Go to the working directory
 2. Open a cli prompt
 3. create a new conda env:
-```console
+   ```console
    conda env create -p .\.env --file environment.yaml
-```
-
+   ```
+4. activate the env:
+   ```console
+   conda activate .\.env
+   ```
+5. start the streamlit app
+   ```console
+   cd use_cases\damage_calc
+   streamlit run streamlit_damage_calc.py  
+   ```
