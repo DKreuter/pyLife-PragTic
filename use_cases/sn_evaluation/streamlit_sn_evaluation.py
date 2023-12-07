@@ -9,35 +9,7 @@ import plotly.graph_objects as go
 import pylife.materialdata.woehler as woehler
 from pylife.materiallaws import WoehlerCurve
 import streamlit as st
-
-
-def make_SN_plot(fig, cycles, wc, name, color="black"):
-    fig.add_scatter(
-        x=cycles,
-        y=wc.basquin_load(cycles),
-        mode="lines",
-        name=name + " 50%",
-        line_color=color,
-    )
-    fig.add_scatter(
-        x=cycles,
-        y=wc.basquin_load(cycles, failure_probability=0.1),
-        mode="lines",
-        name=name + " 10%",
-        line_color=color,
-        line_dash="dash",
-    )
-    fig.add_scatter(
-        x=cycles,
-        y=wc.basquin_load(cycles, failure_probability=0.9),
-        mode="lines",
-        name=name + " 90%",
-        line_color=color,
-        line_dash="dash",
-    )
-    return fig
-
-
+from fig_sn import make_SN_plot
 # %%
 st.set_page_config("woehler", page_icon="../icon/pyLife_logo_no_elefant.png")
 st.title("Woehler analyzing streamlit app")
