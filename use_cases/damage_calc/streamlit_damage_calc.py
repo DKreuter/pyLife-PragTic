@@ -6,6 +6,7 @@ import plotly.express as px
 import streamlit as st
 
 # %%
+st.set_page_config("damage", page_icon="../icon/pyLife_logo_no_elefant.png")
 st.title("Damage Calculation")
 st.markdown(
     r"""
