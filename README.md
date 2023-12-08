@@ -2,6 +2,11 @@
 pyLife WS @ Prague, 14-15th of December 2023
 
 ## Preperation
+
+#### Install miniconda or anaconda
+
+Install [miniconda](https://conda.io/miniconda.html) or [anaconda](http://anaconda.com) on your computer. See the instructions on the pages how to do that.
+
 ### Clone the repo
 To use all notebooks and apps, please clone the repo. As an alternative, you can download the *.zip file directly.
 ### Your python environment
