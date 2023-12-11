@@ -14,14 +14,14 @@ To use all notebooks and apps, please clone the repo. As an alternative, you can
 2. Open a cli prompt
 3. create a new conda env:
    ```console
-   conda env create -p .\.env --file environment.yaml
+   conda env create -p ./.env --file environment.yaml
    ```
 4. activate the env:
    ```console
-   conda activate .\.env
+   conda activate ./.env
    ```
 5. start the streamlit app
    ```console
-   cd use_cases\damage_calc
+   cd use_cases/damage_calc
    streamlit run streamlit_damage_calc.py  
    ```
