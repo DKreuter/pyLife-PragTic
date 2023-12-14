@@ -14,7 +14,7 @@ To use all notebooks and apps, please clone the repo. As an alternative, you can
 2. Open a cli prompt
 3. create a new conda env:
    ```console
-   conda env create -p ./.env --file environment.yaml --yes
+   conda env create -p ./.env --file environment.yaml --force
    ```
 4. activate the env:
    ```console
