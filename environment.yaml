@@ -10,3 +10,6 @@ dependencies:
     - pandas
     - plotly
     - streamlit
+    - trame-vtk
+    - trame-vuetify
+    - vtk
