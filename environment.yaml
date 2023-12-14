@@ -12,5 +12,6 @@ dependencies:
     - streamlit
     - trame-vtk
     - trame-vuetify
+    - trame[all]
     - vtk
     - pyvista
