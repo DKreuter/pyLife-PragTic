@@ -43,7 +43,7 @@ damage = {
     "miner_haibach": mat_edit.fatigue.miner_haibach().damage(load_cycles),
 }
 methods = st.multiselect(
-    "select your method",
+    "select your method, but only today",
     damage.keys(),
 )
 
